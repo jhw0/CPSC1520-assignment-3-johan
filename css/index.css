@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.message-success {
+    color: green;
+    background-color: #ccffcc;
+    border: 1px solid green;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.message-warning {
+    color: darkorange;
+    background-color: #ffffcc;
+    border: 1px solid darkorange;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.message-error {
+    color: red;
+    background-color: #ffcccc;
+    border: 1px solid red;
+    padding: 10px;
+    margin: 10px 0;
+}
